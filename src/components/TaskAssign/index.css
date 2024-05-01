@@ -1,0 +1,34 @@
+
+.task-assign-container {
+    margin-bottom: 20px;
+  }
+  
+  .task-assign-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task-assign-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+   
+  @media (max-width: 768px) {
+    .task-assign-select,
+    .task-assign-button {
+      width: calc(100% - 20px);
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  

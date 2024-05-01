@@ -1,0 +1,41 @@
+/* TaskStatus.css */
+
+/* Style the button container */
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the buttons */
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Change button styles on hover */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Apply responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    div {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    button {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Add more media queries for different screen sizes if needed */
+  

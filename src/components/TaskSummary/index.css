@@ -1,0 +1,23 @@
+
+div {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+   
+  p {
+    margin-bottom: 10px;
+    margin-right: 20ppx;
+  }
+  
+   
+  @media screen and (max-width: 768px) {
+     
+    div {
+      font-size: 14px;
+    }
+  }
+  
